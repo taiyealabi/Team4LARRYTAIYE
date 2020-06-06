@@ -1,0 +1,42 @@
+You must have at least 10 substantive commits per group member that are marked "feature".  Any fixes to "features" must be marked as fixes and do not count.  Commits for creating files or renaming files or other non-feature work should be named "task".  
+Commit message Examples:
+Feature:  Added definition of the term repository.
+Fix: Updated definition of repository
+Task: Uploaded an image screenshot for a repository
+
+Project Description
+For this project, you need to explain how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company.  Your group also needs to have 2-3 (depending on group size) sections about the following topics:  
+You must explain the gitFlow (Links to an external site.) workflow and have a section to define and give examples of how to use the following Git commands and terminology:
+
+Repository
+Clone
+Fork
+Branch
+Commit
+Merge
+Checkout
+Push
+Pull 
+Remote Add / Remove / Show
+Status
+Master Branch
+
+
+
+The trick with this assignment it not to have a lot of text to commit you want small commits like one definition at t a time.  You have to think 2 things:
+You just want to have to edit a little bit of text to resolve a merge conflict
+You don’t want merge conflicts and you avoid merge conflicts by not having the same text on a line
+The basic steps are
+
+Create a repo
+Everyone clones to their clocks
+Create a branch for the task / definition
+On your local do a commit on the Branch
+Push to the branch to GitHub
+Create a pull request for the branch to be merged
+Merge the branch to master
+Everyone pulls the master branch
+Repeat for the next tasks
+You will need to add all team members to the repo using the settings menu so everyone can push
+
+Notes you can also fork a repo to your own and then clone and this makes it so you don’t have to add everyone to the main repo.  But when you create a pull request you got to click this link that says “compare across forks” so you can pick out branches from other forks
