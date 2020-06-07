@@ -35,5 +35,8 @@ Repository is the git folder inside a project. This Repository must have a name 
 ![Scrrenshot added for Repository workflow](https://github.com/taiyealabi/TaiyeNJIT/blob/master/Repository%20Screenshot.JPG)
 
 
+## Clone
+A clone is a copy or the act of making a copy of a repository, for example, a copy of the the master branch. When a clone is made, files can be edited and Git will track the different changes made. The repository that was cloned is still connected to the remote version such that that changes that were made locally can be pushed to the remote to keep them synced.
+
 
 ![Gitcloneurl](https://github.com/taiyealabi/Team4LARRYTAIYE/blob/master/Cloning%20a%20Git.JPG?raw=true)
