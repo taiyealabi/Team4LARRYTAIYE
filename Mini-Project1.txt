@@ -58,16 +58,35 @@ A branch is a separate line of development that enables the creation of a ew bra
 **Branch**:
 A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process discussed in Git Basics, the first module of this series. You can think of them as a way to request a brand new working directory, staging area, and project history. New commits are recorded in the history for the current branch, which results in a fork in the history of the project.
 
+What is Commit in a Git?
+Commits is an important part of the Git version control system. One way to think about commits is that they are a snapshot of a project during a certain moment in the project’s history. The "commit" command is used to save your changes to the local repository. Note that you have to explicitly tell Git which changes you want to include in a commit before running the "git commit" command. This means that a file won't be automatically included in the next commit just because it was changed. Instead, you need to use the "git add" command to mark the desired changes for inclusion
 
 **Commit**: 
 Commit implies telling Git to track the first change.
 
-Merge
-Checkout
-Push
-Pull 
+What is Merge in a Git?
+The "Merge" command is used to integrate changes from another branch. The target of this integration (i.e. the branch that receives changes) is always the currently checked out Master or Repository branch. While Git can perform most integrations automatically, some changes will result in conflicts that have to be solved by the user before the merge can be completed. 
+
+What is Checkout in a Git?
+The command git clone is used to fetch the desired repository from the remote git server to a local computer and this process is known as cloning.  When you clone a repository, you start on the local repository’s master branch by default. To avoid any confusion and proper documentation purposes, it is advisable to make a new branch and work in that temporary branch. To make a new branch git checkout command is used. The command git checkout is used to check out the desired status of your repository be it any branch or a particular file. It can also be used for switching between existing local branches.
+In summary, checkout has 3 uses:
+1.	To create a new branch from the current branch.
+2.	To switch between existing local branches.
+3.	To check out and go to a particular status of a particular file.
+
+What is Push in a Git?
+In its simplest definition, the Git push command can be taken as uploading the content to the remote repository.
+After adding a feature, making changes or other tasks in the local repository, we can use the push command for uploading these changes to the remote repository (e.g. Github) so other team members can see it and may update their project accordingly.
+
+What is Pull in a Git?
+Git pull is a magical way to perform a combined operation of git-fetch & git-merge with a single command. “Pull,” which is self-explanatory, depicts that the user is trying to fetch something from the repository. In a way, “fetch” is not the right word because we already discussed git fetch command. If you think that fetching is all that Git Pull does, then why aren’t we satisfied by Git Fetch?
+Git Pull will perform Git Fetch without telling the user and merge those changes automatically without asking from the user. 
+
 Remote Add / Remove / Show
-Status
+
+What is Status in a Git?
+Git status command is used in Git to know the status of the working tree. It shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged. In shorter terms, Git will show you any difference in the current document and the Master file. Along with this, Git status will also show you the changed or new file in the repository
+
 Master Branch
 
 
