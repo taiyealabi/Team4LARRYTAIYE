@@ -16,6 +16,8 @@ You must explain the gitFlow (Links to an external site.) workflow and have a se
 
         A repository can also be created in the User Interface from the home screen after signing into your account, and then selecting 'New' or the 'Plus' sign (+) on the top right corner of the home page. See file attachment called 'Create a new repository.
 
+[Here is the URL on how to create a Repo!](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/TestImage1.PNG)
+[Here is the URL on how to create a Repo1!](https://github.com/pyruskimo/LarryTaiyeImages/TestImage1.PNG)
 
 Clone
         **Fork**:
