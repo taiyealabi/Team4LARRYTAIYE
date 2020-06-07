@@ -32,8 +32,7 @@ A repository can also be created in the User Interface from the home screen afte
 Repository is the git folder inside a project. This Repository must have a name and a description which tracks all changes made to the files in the project. I also realize that all these changes made within the project file builds a history ovwhich tracks all changes made to the files in the project. I also realize that all these changes made within the project file builds a history ovetime. Meaning, if you delete the .git/ folder, then you delete your project history
  
 ![Screenshot added on creating a new repository](https://raw.githubusercontent.com/pyruskimo/LarryTaiyeImages/master/TestImage1.PNG)
-
-
+![Scrrenshot added for Repository workflow](https://github.com/taiyealabi/TaiyeNJIT/blob/master/Repository%20Screenshot.JPG)
 
 
 
