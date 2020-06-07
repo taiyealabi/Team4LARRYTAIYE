@@ -52,7 +52,9 @@ Note: Forking is allowed for public repositories without permission. But if the 
 
 Instead of using a single server-side repository to act as the “central” codebase, forking gives every developer a server-side repository. This means that each contributor has not one, but two Git repositories: a private local one and a public server-side one.
         
-        
+What is Branch in a Git?
+A branch is a separate line of development that enables the creation of a ew branch with the git branch command. When a programmer fixes a bug or adds a new feature, he or she creates a new branch to make the changes in a safe way, without threatening existing, working code. 
+       
 **Branch**:
 A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process discussed in Git Basics, the first module of this series. You can think of them as a way to request a brand new working directory, staging area, and project history. New commits are recorded in the history for the current branch, which results in a fork in the history of the project.
 
