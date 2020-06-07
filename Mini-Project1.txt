@@ -38,6 +38,15 @@ The cloning process works in these steps:
 Note: Owner of the repository can allow/disallow direct changes to Central Repository, set various notifications (It could be notification for any change pushed to central Repository).
 
 
+What is Forking in a Git?
+Forking is a process of creating a copy of a complete repository to the user’s GitHub Account from another account. When a user forks a repository, all the files in the repository are automatically copied to the user’s account on GitHub and it feels like the user’s own the repository. This process is similar to copying a folder from one drive to another drive in a computer. The user is then free to use this repository either for their purpose or experiment with changes in the code. Through git forking, the users can develop their own modifications to the code that belongs to someone else.
+ 
+Forking a repository on GitHub is done for two main purposes:
+
+Improving someone’s project/software or code: Improving can be that I am adding a new feature to the existing software/repository. For example, I navigate to a repository and liked the concept of the software, but then I have something else in mind that could be useful for the same software. I can fork the repository, develop the feature on my machine and send the changes to the owner of the repository.
+
+Reusing the code in a project: A user can also make use of git fork to fork the repository of another user to use in their own project. The popularity of Git is also because people add their code, project, module, software, etc on GitHub as a public repository. Now other people are allowed to use that open source code to their project, which helps them to save their efforts and time. 
+Note: Forking is allowed for public repositories without permission. But if the repository is private, one can only be able to fork if he or she has permission from the owner of the repository. (Please see screenshot below)
 
 Instead of using a single server-side repository to act as the “central” codebase, forking gives every developer a server-side repository. This means that each contributor has not one, but two Git repositories: a private local one and a public server-side one.
         
@@ -46,8 +55,8 @@ Instead of using a single server-side repository to act as the “central” cod
 A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process discussed in Git Basics, the first module of this series. You can think of them as a way to request a brand new working directory, staging area, and project history. New commits are recorded in the history for the current branch, which results in a fork in the history of the project.
 
 
-        **Commit**: 
-        Commit implies telling Git to track the first change.
+**Commit**: 
+Commit implies telling Git to track the first change.
 
 Merge
 Checkout
