@@ -35,7 +35,7 @@ The cloning process works in these steps:
 •	Clone a Repository: The user starts from the upstream repository in Git. Since the user navigated to the repository because he/she is interested in the concept and they like to contribute. The process starts from cloning the repository into their local master. Now they have the exact copy of the project files on their system to make the changes.
 •	Make the desired changes: After cloning, contributors provide their contribution to the repository. Contribution in the form of editing the source files resulting in either a bug fix or adding functionality or maybe optimizing the code. But the bottom line is, everything happens on their local system.
 •	Pushing the Changes back to the Original Repository: Once the changes are done, the modifications can be pushed to the upstream repository. 
-Note: Owner of the repository can allow/disallow direct changes to Central Repository, set various notifications (It could be notification for any change pushed to central Repository)
+Note: Owner of the repository can allow/disallow direct changes to Central Repository, set various notifications (It could be notification for any change pushed to central Repository).
 
 
 
