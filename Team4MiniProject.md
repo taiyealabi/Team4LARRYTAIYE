@@ -29,6 +29,9 @@ The folder can be accessed via the command line by changing in to the windows di
 
 A repository can also be created in the User Interface from the home screen after signing into your account, and then selecting 'New' or the 'Plus' sign (+) on the top right corner of the home page. See file attachment called 'Create a new repository.
 
+Repository is the git folder inside a project. This Repository must have a name and a description which tracks all changes made to the files in the project. I also realize that all these changes made within the project file builds a history ovwhich tracks all changes made to the files in the project. I also realize that all these changes made within the project file builds a history ovetime. Meaning, if you delete the .git/ folder, then you delete your project history
+ 
+
 
 
 
