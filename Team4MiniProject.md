@@ -39,6 +39,6 @@ Repository is the git folder inside a project. This Repository must have a name 
 A clone is a copy or the act of making a copy of a repository, for example, a copy of the the master branch. When a clone is made, files can be edited and Git will track the different changes made. The repository that was cloned is still connected to the remote version such that that changes that were made locally can be pushed to the remote to keep them synced.
 Cloning is a process of creating an identical copy of a Git Remote Repository for a Project.
 When we clone a repository, all the files are downloaded to the local master but the remote git repository remains unchanged. Making changes and committing them on your local repository (cloned repository) will not affect the remote repository that you cloned in any way. These changes made on the local master can be synced with the remote repository anytime the user wants..
-
+![Gitcloneurl](https://github.com/taiyealabi/Team4LARRYTAIYE/blob/master/Cloning%20a%20Git.JPG?raw=true)
 
 
