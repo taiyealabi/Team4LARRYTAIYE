@@ -37,6 +37,8 @@ The cloning process works in these steps:
 •	Pushing the Changes back to the Original Repository: Once the changes are done, the modifications can be pushed to the upstream repository. 
 Note: Owner of the repository can allow/disallow direct changes to Central Repository, set various notifications (It could be notification for any change pushed to central Repository)
 
+Added a Repository image: 
+
 
 
 Instead of using a single server-side repository to act as the “central” codebase, forking gives every developer a server-side repository. This means that each contributor has not one, but two Git repositories: a private local one and a public server-side one.
