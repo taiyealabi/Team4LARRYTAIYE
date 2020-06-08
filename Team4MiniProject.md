@@ -75,6 +75,7 @@ Commits is an important part of the Git version control system. One way to think
 The "Merge" command is used to integrate changes from another branch. The target of this integration (i.e. the branch that receives changes) is always the currently checked out Master or Repository branch. While Git can perform most integrations automatically, some changes will result in conflicts that have to be solved by the user before the merge can be completed. 
 Merging is a way of combining the work from two different branches together where a branch was created to develop a new feature and then combined back in to the main branch or master branch. Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches.
 
+![Merge1](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/Merge1.PNG)
 
 
 
