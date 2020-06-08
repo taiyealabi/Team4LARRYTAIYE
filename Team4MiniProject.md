@@ -89,4 +89,7 @@ In summary, checkout has 3 uses:
 ## Push
 The git push command is used to upload local repository content to a remote repository. Pushing is how commits are transfered from a  local repository on to a remote repository.
 - It uses the following command: git push <remote> <branch>
-  After a local repository has been modified a push is executed to share the modifications with remote team members.
+After a local repository has been modified a push is executed to share the modifications with remote team members.
+In its simplest definition, the Git push command can be taken as uploading the content to the remote repository.
+After adding a feature, making changes or other tasks in the local repository, we can use the push command for uploading these changes to the remote repository (e.g. Github) so other team members can see it and may update their project accordingly.
+
