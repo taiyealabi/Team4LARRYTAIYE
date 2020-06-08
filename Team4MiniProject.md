@@ -77,5 +77,10 @@ Merging is a way of combining the work from two different branches together wher
 
 ![Merge1](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/Merge1.PNG)
 
-
+## Checkout
+The command git clone is used to fetch the desired repository from the remote git server to a local computer and this process is known as cloning.  When you clone a repository, you start on the local repository’s master branch by default. To avoid any confusion and proper documentation purposes, it is advisable to make a new branch and work in that temporary branch. To make a new branch git checkout command is used. The command git checkout is used to check out the desired status of your repository be it any branch or a particular file. It can also be used for switching between existing local branches.
+In summary, checkout has 3 uses:
+1.	To create a new branch from the current branch.
+2.	To switch between existing local branches.
+3.	To check out and go to a particular status of a particular file.
 
