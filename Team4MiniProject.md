@@ -69,6 +69,7 @@ Commit implies telling Git to track the individual change to a file (or set of f
 Commits is an important part of the Git version control system. One way to think about commits is that they are a snapshot of a project during a certain moment in the project’s history. The "commit" command is used to save your changes to the local repository. Note that you have to explicitly tell Git which changes you want to include in a commit before running the "git commit" command. This means that a file won't be automatically included in the next commit just because it was changed. Instead, you need to use the "git add" command to mark the desired changes for inclusion
 
 ![Git commit](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/Git%20Commit1.PNG)
+![What happens](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/commit%202.PNG)
 
 ## Merge
 The "Merge" command is used to integrate changes from another branch. The target of this integration (i.e. the branch that receives changes) is always the currently checked out Master or Repository branch. While Git can perform most integrations automatically, some changes will result in conflicts that have to be solved by the user before the merge can be completed. 
