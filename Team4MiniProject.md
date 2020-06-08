@@ -76,6 +76,7 @@ The "Merge" command is used to integrate changes from another branch. The target
 Merging is a way of combining the work from two different branches together where a branch was created to develop a new feature and then combined back in to the main branch or master branch. Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches.
 
 ![Merge1](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/Merge1.PNG)
+![Added sreenshot for Merge](https://github.com/taiyealabi/TaiyeNJIT/blob/master/Merge%20Commit%20screenshot.JPG)
 
 ## Checkout
 The command git clone is used to fetch the desired repository from the remote git server to a local computer and this process is known as cloning.  When you clone a repository, you start on the local repository’s master branch by default. To avoid any confusion and proper documentation purposes, it is advisable to make a new branch and work in that temporary branch. To make a new branch git checkout command is used. The command git checkout is used to check out the desired status of your repository be it any branch or a particular file. It can also be used for switching between existing local branches.
