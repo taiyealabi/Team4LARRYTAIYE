@@ -13,7 +13,7 @@
         Remove
         Show
 - [x] Status
-- [ ] Master branch
+- [x] Master branch
 
 
 ### GitFlow workflow
@@ -109,3 +109,7 @@ Git status command is used in Git to know the status of the working tree. It sho
 The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git.
 
 ![Usage](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/Status.PNG)
+
+
+## Master Branch
+A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master . As we start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
