@@ -7,7 +7,7 @@
 - [x] Merge
 - [x] Checkout
 - [x] Push
-- [ ] Pull
+- [x] Pull
 - [ ] Remote
         Add
         Remove
@@ -97,5 +97,7 @@ After adding a feature, making changes or other tasks in the local repository, w
 
 ## Pull
 Git pull is a magical way to perform a combined operation of git-fetch & git-merge with a single command. “Pull,” which is self-explanatory, depicts that the user is trying to fetch something from the repository. In a way, “fetch” is not the right word because we already discussed git fetch command. If you think that fetching is all that Git Pull does, then why aren’t we satisfied by Git Fetch?
-Git Pull will perform Git Fetch without telling the user and merge those changes automatically without asking from the user. 
+Git Pull will perform Git Fetch without telling the user and merge those changes automatically without asking from the user. ## Pull 
+The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. The git pull command is actually a combination of two other commands, git fetch followed by git merge. In the first stage of operation git pull will execute a git fetch scoped to the local branch that HEAD is pointed at. Once the content is downloaded, git pull will enter a merge workflow. 
+
 
