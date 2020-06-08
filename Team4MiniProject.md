@@ -94,3 +94,8 @@ In its simplest definition, the Git push command can be taken as uploading the c
 After adding a feature, making changes or other tasks in the local repository, we can use the push command for uploading these changes to the remote repository (e.g. Github) so other team members can see it and may update their project accordingly.
 
 ![Before and after Git push diagram](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/Git%20Push.PNG?raw=true)
+
+## Pull
+Git pull is a magical way to perform a combined operation of git-fetch & git-merge with a single command. “Pull,” which is self-explanatory, depicts that the user is trying to fetch something from the repository. In a way, “fetch” is not the right word because we already discussed git fetch command. If you think that fetching is all that Git Pull does, then why aren’t we satisfied by Git Fetch?
+Git Pull will perform Git Fetch without telling the user and merge those changes automatically without asking from the user. 
+
