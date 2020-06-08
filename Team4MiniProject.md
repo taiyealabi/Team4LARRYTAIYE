@@ -62,3 +62,7 @@ A branch represents an independent line of development. It is thought of as a wa
 Getting the most out of Git will mean using branches often and effectively. Branches are easy to create, work with, delete and allow testing of different ideas. Assuming working on a project, and suddenly an idea comes to mind. Though uncertain if the new idea will work or not, instead of making lots of commit to the master branche and undoing <del>or reverting</del> the changes, a new branch can be created and the new idea test there on. And if the ideas do not work, the branch can be deleted and the master branch would not have been affected by the chnages. However if the idea does workout, those changes can be brought back to the master branch through a process called merging.
 A branch is a separate line of development that enables the creation of a new branch with the git branch command. When a programmer fixes a bug or adds a new feature, he or she creates a new branch to make the changes in a safe way, without threatening existing, working code. 
 ![Added screenshot for Branch](https://github.com/taiyealabi/TaiyeNJIT/blob/master/Git%20Branch%20Screenshot.JPG)
+
+
+## Commit: 
+Commit implies telling Git to track the individual change to a file (or set of files). When a commit is made to save a work, Git creates a unique ID called "hash" that allows the keeping of record of the specific changes commited along with who made them and when. Commits usually contain a commit message which is a brief description of what changes were made.
