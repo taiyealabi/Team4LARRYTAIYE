@@ -1,6 +1,6 @@
 - [x] Git Flow Work FLow
 - [x] Repository
-- [ ] Clone
+- [x] Clone
 - [ ] Fork
 - [x] Branch
 - [x] Commit
@@ -42,3 +42,5 @@ When we clone a repository, all the files are downloaded to the local master but
 ![Gitcloneurl](https://github.com/taiyealabi/Team4LARRYTAIYE/blob/master/Cloning%20a%20Git.JPG?raw=true)
 
 
+## Fork
+Forking provides a way for each contibutor or developer to have their own serve-side repositoyr. This means that each ontributor has not one but two Git repositories: A private local repositories and a servier-side one. It can also be considered as a standard Git clone operation.
