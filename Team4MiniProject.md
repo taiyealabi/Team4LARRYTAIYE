@@ -114,6 +114,13 @@ The git status command displays the state of the working directory and the stagi
 ## Master Branch
 A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master . As we start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
 
-*![References](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)
-*![References](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
-*![Reference]](https://www.atlassian.com/git/tutorials)
+
+![Reference](https://guides.github.com/introduction/git-handbook/)
+
+![Reference](https://www.atlassian.com/git/tutorials/using-branches)
+
+![Reference](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+
+![Reference](https://www.atlassian.com/git/tutorials)
+        
+        
