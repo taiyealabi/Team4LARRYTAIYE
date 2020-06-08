@@ -66,3 +66,5 @@ A branch is a separate line of development that enables the creation of a new br
 
 ## Commit: 
 Commit implies telling Git to track the individual change to a file (or set of files). When a commit is made to save a work, Git creates a unique ID called "hash" that allows the keeping of record of the specific changes commited along with who made them and when. Commits usually contain a commit message which is a brief description of what changes were made.
+Commits is an important part of the Git version control system. One way to think about commits is that they are a snapshot of a project during a certain moment in the project’s history. The "commit" command is used to save your changes to the local repository. Note that you have to explicitly tell Git which changes you want to include in a commit before running the "git commit" command. This means that a file won't be automatically included in the next commit just because it was changed. Instead, you need to use the "git add" command to mark the desired changes for inclusion
+
