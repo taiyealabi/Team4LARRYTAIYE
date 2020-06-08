@@ -1,12 +1,12 @@
 - [x] Git Flow Work FLow
 - [x] Repository
 - [x] Clone
-- [ ] Fork
+- [x] Fork
 - [x] Branch
-- [x] Commit
+- [ ] Commit
 - [ ] Merge
 - [ ] Checkout
-- [x] Push
+- [ ] Push
 - [ ] Pull
 - [ ] Remote
         Add
@@ -55,3 +55,8 @@ Note: Forking is allowed for public repositories without permission. But if the 
 
 Instead of using a single server-side repository to act as the “central” codebase, forking gives every developer a server-side repository. This means that each contributor has not one, but two Git repositories: a private local one and a public server-side one.
 ![Screenshot for Git Fork](https://github.com/taiyealabi/TaiyeNJIT/blob/master/Git%20Fork%20Screenshot.JPG)
+
+
+## Branch:
+A branch represents an independent line of development. It is thought of as a way to request a brand new working directory, staging area, and project history. New commits are recorded in the history for the current branch, which results in a fork in the history of the project.
+Getting the most out of Git will mean using branches often and effectively. Branches are easy to create, work with, delete and allow testing of different ideas. Assuming working on a project, and suddenly an idea comes to mind. Though uncertain if the new idea will work or not, instead of making lots of commit to the master branche and undoing <del>or reverting</del> the changes, a new branch can be created and the new idea test there on. And if the ideas do not work, the branch can be deleted and the master branch would not have been affected by the chnages. However if the idea does workout, those changes can be brought back to the master branch through a process called merging.
