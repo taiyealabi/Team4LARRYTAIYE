@@ -107,3 +107,5 @@ Remote allows us to collaborate with others. It is responsible for syncing chang
 ## Status
 Git status command is used in Git to know the status of the working tree. It shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged. In shorter terms, Git will show you any difference in the current document and the Master file. Along with this, Git status will also show you the changed or new file in the repository.
 The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git.
+
+![Usage](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/Status.PNG)
