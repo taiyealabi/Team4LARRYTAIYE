@@ -6,7 +6,7 @@
 - [x] Commit
 - [x] Merge
 - [x] Checkout
-- [ ] Push
+- [x] Push
 - [ ] Pull
 - [ ] Remote
         Add
@@ -93,3 +93,4 @@ After a local repository has been modified a push is executed to share the modif
 In its simplest definition, the Git push command can be taken as uploading the content to the remote repository.
 After adding a feature, making changes or other tasks in the local repository, we can use the push command for uploading these changes to the remote repository (e.g. Github) so other team members can see it and may update their project accordingly.
 
+![Before and after Git push diagram](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/Git%20Push.PNG?raw=true)
