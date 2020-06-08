@@ -5,7 +5,7 @@
 - [x] Branch
 - [x] Commit
 - [x] Merge
-- [ ] Checkout
+- [x] Checkout
 - [ ] Push
 - [ ] Pull
 - [ ] Remote
@@ -85,3 +85,8 @@ In summary, checkout has 3 uses:
 2.	To switch between existing local branches.
 3.	To check out and go to a particular status of a particular file.
 
+
+## Push
+The git push command is used to upload local repository content to a remote repository. Pushing is how commits are transfered from a  local repository on to a remote repository.
+- It uses the following command: git push <remote> <branch>
+  After a local repository has been modified a push is executed to share the modifications with remote team members.
