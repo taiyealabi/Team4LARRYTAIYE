@@ -8,7 +8,7 @@
 - [x] Checkout
 - [x] Push
 - [x] Pull
-- [ ] Remote
+- [x] Remote
         Add
         Remove
         Show
@@ -101,4 +101,6 @@ Git Pull will perform Git Fetch without telling the user and merge those changes
 The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. The git pull command is actually a combination of two other commands, git fetch followed by git merge. In the first stage of operation git pull will execute a git fetch scoped to the local branch that HEAD is pointed at. Once the content is downloaded, git pull will enter a merge workflow. 
 ![Screenshot for Git pull](https://github.com/taiyealabi/TaiyeNJIT/blob/master/Git%20Pull%20screenshot.JPG)
 
+## Remote
+Remote allows us to collaborate with others. It is responsible for syncing changes. It also records changes made through the git remote command and are used in conjunction with the git fetch, git push, and git pull commands. 
 
