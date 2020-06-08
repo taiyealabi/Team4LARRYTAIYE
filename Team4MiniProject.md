@@ -54,3 +54,4 @@ Reusing the code in a project: A user can also make use of git fork to fork the 
 Note: Forking is allowed for public repositories without permission. But if the repository is private, one can only be able to fork if he or she has permission from the owner of the repository. (Please see screenshot below)
 
 Instead of using a single server-side repository to act as the “central” codebase, forking gives every developer a server-side repository. This means that each contributor has not one, but two Git repositories: a private local one and a public server-side one.
+![Screenshot for Git Fork](https://github.com/taiyealabi/TaiyeNJIT/blob/master/Git%20Fork%20Screenshot.JPG)
