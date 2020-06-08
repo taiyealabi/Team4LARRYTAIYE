@@ -70,6 +70,10 @@ Commits is an important part of the Git version control system. One way to think
 
 ![Git commit](https://github.com/pyruskimo/LarryTaiyeImages/blob/master/Git%20Commit1.PNG)
 
+## Merge
+The "Merge" command is used to integrate changes from another branch. The target of this integration (i.e. the branch that receives changes) is always the currently checked out Master or Repository branch. While Git can perform most integrations automatically, some changes will result in conflicts that have to be solved by the user before the merge can be completed. 
+
+
 
 
 
