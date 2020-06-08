@@ -44,3 +44,13 @@ When we clone a repository, all the files are downloaded to the local master but
 
 ## Fork
 Forking provides a way for each contibutor or developer to have their own serve-side repositoyr. This means that each ontributor has not one but two Git repositories: A private local repositories and a servier-side one. It can also be considered as a standard Git clone operation.
+Forking is a process of creating a copy of a complete repository to the user’s GitHub Account from another account. When a user forks a repository, all the files in the repository are automatically copied to the user’s account on GitHub and it feels like the user’s own the repository. This process is similar to copying a folder from one drive to another drive in a computer. The user is then free to use this repository either for their purpose or experiment with changes in the code. Through git forking, the users can develop their own modifications to the code that belongs to someone else.
+ 
+Forking a repository on GitHub is done for two main purposes:
+
+Improving someone’s project/software or code: Improving can be that I am adding a new feature to the existing software/repository. For example, I navigate to a repository and liked the concept of the software, but then I have something else in mind that could be useful for the same software. I can fork the repository, develop the feature on my machine and send the changes to the owner of the repository.
+
+Reusing the code in a project: A user can also make use of git fork to fork the repository of another user to use in their own project. The popularity of Git is also because people add their code, project, module, software, etc on GitHub as a public repository. Now other people are allowed to use that open source code to their project, which helps them to save their efforts and time. 
+Note: Forking is allowed for public repositories without permission. But if the repository is private, one can only be able to fork if he or she has permission from the owner of the repository. (Please see screenshot below)
+
+Instead of using a single server-side repository to act as the “central” codebase, forking gives every developer a server-side repository. This means that each contributor has not one, but two Git repositories: a private local one and a public server-side one.
